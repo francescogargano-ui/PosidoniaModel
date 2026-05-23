@@ -5,14 +5,14 @@ Clean Julia code for the 1D bifurcation analysis of the reduced *Posidonia ocean
 ## Files
 
 ```text
-posidonia_bifurcation_clean.jl
+posidonia_bifurcation.jl
 plot_branch_json.m
 ```
 
 ## Run the Julia code
 
 ```bash
-julia posidonia_bifurcation_clean.jl
+julia posidonia_bifurcation.jl
 ```
 
 The script computes the primary homogeneous branch, detects the first bifurcation point, continues one branch emerging from it, and saves the results as JSON files:
